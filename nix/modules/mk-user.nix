@@ -20,7 +20,7 @@
       ]
       ++ userModules;
     config = {
-      home.stateVersion = "22.05";
+      home.stateVersion = "23.11";
 
       home.file.".config/nix/nix.conf".text = ''
         experimental-features = nix-command flakes
