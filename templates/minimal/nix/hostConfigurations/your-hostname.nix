@@ -10,5 +10,5 @@
 # for configurable nix-darwin modules see
 # https://github.com/LnL7/nix-darwin/blob/master/modules/module-list.nix
 {
-  environment.systemPackages = with pkgs; [nixVersions.unstable];
+  environment.systemPackages = with pkgs; [nixVersions.stable];
 }

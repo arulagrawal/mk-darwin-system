@@ -53,7 +53,7 @@
       apps.format = flake-utils.lib.mkApp {drv = alejandra;};
       checks.default = darwin.system;
       devShells.default = mkShell {
-        buildInputs = [nixVersions.unstable niv alejandra];
+        buildInputs = [nixVersions.stable niv alejandra];
       };
     });
 
