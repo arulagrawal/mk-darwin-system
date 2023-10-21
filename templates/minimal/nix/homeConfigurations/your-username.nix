@@ -9,7 +9,7 @@
 {
   home.packages = with pkgs; [
     # Install nixpkgs
-    exa
+    eza
 
     # Install dmg applications versioned by niv from your `nix/sources.json` file.
     # See `nix develop -c niv show` on the root of your flake.
