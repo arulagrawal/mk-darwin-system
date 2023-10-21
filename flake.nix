@@ -4,7 +4,7 @@
 
     flake-utils.url = "github:numtide/flake-utils";
 
-    nix-darwin.url = "github:lnl7/nix-darwin";
+    nix-darwin.url = "github:arulagrawal/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
 
     home-manager.url = "github:nix-community/home-manager";
