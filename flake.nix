@@ -7,7 +7,7 @@
     nix-darwin.url = "github:arulagrawal/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
 
-    home-manager.url = "github:nix-community/home-manager";
+    home-manager.url = "github:arulagrawal/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
